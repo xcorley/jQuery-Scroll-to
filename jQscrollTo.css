@@ -1,0 +1,8 @@
+#toggle { background-color:rgba(0,0,0,0.4); border:none; text-align:center; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); box-shadow: 0 1px 4px rgba(0,0,0,.2); margin-bottom:10px; margin-top:10px; }
+#toggle ul div { display: none; text-decoration: none; }
+#toggle li { list-style-type:none; cursor:pointer;  }
+#toggle li div:hover{text-decoration:none !important; }
+#toggle li:before {content: "+"; padding:10px 10px 10px 0; color:#FFF; font-weight:bold;}
+#toggle li.active:before {content: "-"; padding:10px 10px 10px 0; color:#FFF; font-weight:bold; }
+
+.wpcf7 { text-align: center; }
